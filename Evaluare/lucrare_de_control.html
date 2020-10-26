@@ -15,6 +15,9 @@
             text-align: center;
             border: black solid 1px ;
         }
+        input[type="checkbox"]{
+            border-radius: 0;
+        }
     </style>
 </head>
 <body>
@@ -31,13 +34,43 @@
     <a href="http://usarb.md" target="_blank">
         <img src="#" alt="logo USARB">
     </a>
-    <table width="500px">
+    <table>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>1</td>
+            <td>2</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>1</td>
         </tr>
     </table>
     <img src="#" alt="Imagine" height="200" title="Acesta este un hint">
+    <br><br>
+    <form action="#">
+        <label for="student">
+            Student <input type="text" id="student">
+        </label>
+        <br>
+        <label for="Punctaj">
+            Punctaj <input type="text" id="Punctaj">
+        </label>
+        <br>
+        <label for="Grupa">
+            Grupa
+            <select name="grupa" id="Grupa">
+                <option value="1" selected>IS11Z</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </label>
+        <div class="checkbox-box">
+            Varianta: <input type="checkbox" value="I"> I <input type="checkbox" value="II" > II <input type="checkbox" value="III" > III <input type="checkbox" value="IV"> IV
+        </div>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
