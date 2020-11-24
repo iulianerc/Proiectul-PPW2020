@@ -8,6 +8,7 @@ h1, h2 {
 
 button {
     border: none;
+    cursor: pointer;
 }
 
 body {
@@ -49,6 +50,7 @@ header {
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
+    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.25);
 }
 
 .rectangle {
@@ -145,6 +147,7 @@ header nav a:last-child {
     text-align: center;
     color: white;
     font-weight: bold;
+    font-size: 16px;
     border: none;
     cursor: pointer;
     margin-top: 32px;
@@ -278,6 +281,7 @@ header h2 {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
+    cursor: pointer;
 }
 .card_grid .bg_left {
     background-color: #F9BDBD;
@@ -352,6 +356,7 @@ footer {
     height: 39px;
     width: 120px;
     background-color: #DAA520;
+    cursor: pointer;
 }
 .references {
     border-top: 1px solid black;

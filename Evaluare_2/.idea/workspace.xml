@@ -19,18 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="438c652c-b3f7-400f-b83b-47a2aec02caa" name="Default Changelist" comment="CSS - pana la categories 50min">
+    <list default="true" id="438c652c-b3f7-400f-b83b-47a2aec02caa" name="Default Changelist" comment="CSS - totul, inclusiv footer , a ramas doar sliderul ~ 50min">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/footer_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/footer_bg1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/js.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/normalize.css/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/normalize.css/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/normalize.css/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/normalize.css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/normalize.css/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +82,7 @@
       <updated>1606204721497</updated>
       <workItem from="1606204722891" duration="5344000" />
       <workItem from="1606210954225" duration="23592000" />
-      <workItem from="1606254742897" duration="307000" />
+      <workItem from="1606254742897" duration="983000" />
     </task>
     <task id="LOCAL-00001" summary="Commitul de la lectie">
       <created>1606209949794</created>
@@ -127,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606250717124</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="CSS - totul, inclusiv footer , a ramas doar sliderul ~ 50min">
+      <created>1606255188189</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606255188189</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,12 +149,17 @@
     <MESSAGE value="Commitul HTMl - terminat : 1h:10min" />
     <MESSAGE value="CSS - pana la about 1h:20min" />
     <MESSAGE value="CSS - pana la categories 50min" />
-    <option name="LAST_COMMIT_MESSAGE" value="CSS - pana la categories 50min" />
+    <MESSAGE value="CSS - totul, inclusiv footer , a ramas doar sliderul ~ 50min" />
+    <option name="LAST_COMMIT_MESSAGE" value="CSS - totul, inclusiv footer , a ramas doar sliderul ~ 50min" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1606250720338">
+    <state x="184" y="90" key="DiffContextDialog" timestamp="1606255206353">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1606250720338" />
+    <state x="184" y="90" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1606255206353" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1606255211007">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1606255211007" />
   </component>
 </project>
