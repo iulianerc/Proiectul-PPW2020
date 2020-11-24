@@ -1,9 +1,15 @@
 * {
     box-sizing: border-box;
 }
-h1,h2 {
+
+h1, h2 {
     margin: 0;
 }
+
+button {
+    border: none;
+}
+
 body {
     font-family: 'Nunito', sans-serif;
     background-color: #F3C552;
@@ -21,12 +27,19 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-.title{
+
+.title {
     color: #3E3F43;
 }
+
 .fz36 {
     font-size: 36px;
 }
+
+.pos_relative {
+    position: relative;
+}
+
 .content {
     margin: 110px auto;
     width: 1152px;
@@ -138,30 +151,41 @@ header nav a:last-child {
 }
 
 header strong {
+    display: block;
     color: #3E3F43;
+    padding: 2px 0 2px 36px;
+    background: url("../img/flower.svg") left center no-repeat;
+    -webkit-background-size: 30px 30px;
+    background-size: 30px 30px;
 }
+
 .line {
     flex: 1 1 auto;
     height: 0;
     border-bottom: 1px solid black;
     margin: 0 3px 0 14px;
 }
+
 header h2 {
     font-size: 72px;
     color: rgba(34, 34, 34, 0.1);
 }
+
 #about {
     padding-bottom: 120px;
 }
+
 #about .flex_block {
     margin: 40px 0 170px;
 }
-.flex_block{
+
+.flex_block {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.rounded_block{
+
+.rounded_block {
     width: 280px;
     height: 400px;
     background-color: #F7DEA6;
@@ -170,23 +194,97 @@ header h2 {
     border-radius: 0 100px 0 100px;
     position: relative;
 }
+
 .rounded_block img {
     position: absolute;
     bottom: 0;
     left: 40px;
 }
+
 #about p {
     font-weight: 700;
 }
-#about img:nth-child(5){
+
+#about img:nth-child(5) {
     position: absolute;
     right: 0;
     bottom: 0;
 }
 
+#how_work {
+    padding-top: 120px;
+}
 
+#how_work .flex_block {
+    margin: 65px 0;
+}
 
+#how_work span {
+    position: absolute;
+    font-weight: 700;
+    font-size: 92px;
+    color: rgba(250, 189, 189, 0.25);
+    top: 23px;
+    left: -40px;
+}
 
+#how_work .how_work_span2 {
+    left: -30px;
+}
+
+#how_work button {
+    width: 210px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #DAA520;
+    display: block;
+    margin: 0 auto 120px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: white;
+}
+
+.card_grid {
+    margin: 40px 0 120px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    grid-gap: 40px 0;
+}
+.card_grid .rounded_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_grid .rounded_block img {
+    position: static;
+}
+.card_grid strong {
+    position: absolute;
+    top: 24px;
+    left: 16px;
+}
+.card_grid button {
+    position: absolute;
+    bottom: 24px;
+    right: 16px;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 18px;
+    padding: 8px 18px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.card_grid .bg_left {
+    background-color: #F9BDBD;
+}
+.card_grid .bg_right {
+    background-color: #A8DCEC;
+}
 
 
 
