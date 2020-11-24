@@ -1,77 +1,59 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    body{
+      padding: 0;
+      margin: 0;
+    }
+    .container {
+      display: grid;
+      width: 100%;
+      height: 100vh;
+      background-color: #ddd;
+      grid-template-columns: 30% auto;
+      grid-template-rows: 100px 50px 300px 100px;
+      grid-template-areas: ' header header '
+                           ' nav nav '
+                           ' aside section '
+                           ' footer footer ';
+      grid-gap: 20px;
+    }
+    .container
+    header{
+      grid-area: header;
+      background-color: #97A2A2;
+    }
+    nav{
+      grid-area: nav;
+      background-color: sandybrown;
+    }
+    aside{
+      grid-area: aside;
+      background-color: aqua;
+    }
+    section{
+      grid-area: section;
+      background-color: greenyellow;
+    }
+    footer{
+      grid-area: footer;
+      background-color: hotpink;
+    }
+  </style>
 </head>
 <body>
-<div id="demo">
-    <input-comp v-model="input" @input="calc"></input-comp>
-    <br><br>
-    <output-comp :data="operation"></output-comp>
+<div class="container">
+  <header>header h3{asd}*4</header>
+  <nav>nav</nav>
+  <aside>aside</aside>
+  <section>section</section>
+  <footer>footer</footer>
 </div>
-<script>
-    Vue.component('input-comp',{
-        data: function () {
-          return {
-              pass_data: {
-                  x: 0,
-                  y: 0
-              }
-          }
-        },
-        template: '<div>' +
-                    ' <label for="x">X = </label> <input id="x" type="number" v-on:input="model_data">' +
-                    '  <br><br>' +
-                    ' <label for="y">Y = </label> <input id="y" type="number" v-on:input="model_data">' +
-                  '</div> ',
-        methods:{
-            model_data: function ($event){
-                var value = $event.target.value, id = $event.target.getAttribute("id");
-                if (id == 'x'){
-                    this.pass_data.x = Number(value);
-                }
-                if (id == 'y'){
-                    this.pass_data.y = Number(value);
-                }
-                this.$emit('input',this.pass_data);
-            }
-        }
-    });
-    Vue.component('output-comp',{
-        props: ['data'],
-        template: ' <div>' +
-                        '<p> <code>x + y is : {{data.sum}}</code> </p>' + '<p><code>x - y is : {{data.dec}}</code> </p>' + '<p> <code>x * y is : {{data.mult}}</code></p>'  + '<p><code>x / y is : {{data.div}}</code></p>' +
-                  '</div>'
-    });
-
-    var test = new Vue({
-        el: '#demo',
-        data: {
-            input: {
-                x: 0,
-                Y: 0
-            },
-            operation:{
-                sum: 0,
-                dec: 0,
-                div: 0,
-                mult: 0
-            }
-        },
-        methods: {
-            calc: function(){
-                this.operation.sum = this.input.x + this.input.y;
-                this.operation.dec = this.input.x - this.input.y;
-                this.operation.mult = this.input.x * this.input.y;
-                this.operation.div = this.input.x / this.input.y;
-            }
-        }
-    })
-</script>
 </body>
 </html>
