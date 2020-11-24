@@ -19,10 +19,27 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="438c652c-b3f7-400f-b83b-47a2aec02caa" name="Default Changelist" comment="Commitul de la lectie">
-      <change afterPath="$PROJECT_DIR$/assets/css/normalize.css" afterDir="false" />
+    <list default="true" id="438c652c-b3f7-400f-b83b-47a2aec02caa" name="Default Changelist" comment="Commitul HTMl - terminat : 1h:10min">
+      <change afterPath="$PROJECT_DIR$/assets/img/categories_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/categories_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/categories_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/categories_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/categories_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/footer_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/reviewers_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/testimony_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/testimony_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/normalize.css/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/normalize.css/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/normalize.css/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/normalize.css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/normalize.css/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/flower.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/flower.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606204721497</updated>
       <workItem from="1606204722891" duration="5344000" />
-      <workItem from="1606210954225" duration="9029000" />
+      <workItem from="1606210954225" duration="16263000" />
     </task>
     <task id="LOCAL-00001" summary="Commitul de la lectie">
       <created>1606209949794</created>
@@ -98,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606210049779</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commitul HTMl - terminat : 1h:10min">
+      <created>1606240026237</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606240026237</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,12 +142,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commitul de la lectie" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commitul de la lectie" />
+    <MESSAGE value="Commitul HTMl - terminat : 1h:10min" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commitul HTMl - terminat : 1h:10min" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1606210056891">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1606240030143">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1606210056891" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1606240030143" />
   </component>
 </project>

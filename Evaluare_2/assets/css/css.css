@@ -1,80 +1,273 @@
 * {
     box-sizing: border-box;
 }
-body{
+h1,h2 {
     margin: 0;
-    padding: 0;
-    font-family: 'Nunito', sans-serif;
 }
-.rectagle{
-     height: 800px;
-     width: 370px;
-     position: absolute;
-     right: 0;
-     top: 0;
-     background-color: #F9BDBD;
-     border-bottom-left-radius: 200px;
-    z-index: -1;
- }
-header{
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #F3C552;
+    font-size: 24px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.logo{
-    margin-left: 80px;
+.title{
+    color: #3E3F43;
 }
-header nav{
-    margin-right: 20px;
+.fz36 {
+    font-size: 36px;
+}
+.content {
+    margin: 110px auto;
+    width: 1152px;
+    background-color: white;
+    position: relative;
+    z-index: 0;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.rectangle {
+    height: 800px;
+    width: 370px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #F9BDBD;
+    border-radius: 0 20px 0 120px;
+    z-index: -1;
+}
+
+section {
+    padding: 0 100px;
+    position: relative;
+}
+
+#main {
+    height: 865px;
+    display: flex;
+    align-items: center;
+}
+
+#main header {
+    position: absolute;
+    height: 80px;
+    top: 0;
+    left: 80px;
+    right: 20px;
+}
+
+header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-section{
-    width: 1152px;
-    padding: 0 100px;
-    position: relative;
+header nav a {
+    margin-right: 48px;
+    color: #222222;
+    font-size: 16px;
 }
-a {
-    display: block;
-    text-decoration: none;
+
+header nav a:last-child {
+    margin: 0;
+    padding: 10px 35px;
+    border: solid 1px black;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 5px;
+    font-weight: bold;
 }
-.active {
+
+.current {
     color: #DAA520;
     font-weight: bold;
 }
-.slick-slider{}
+
+#main img:nth-child(3) {
+    position: absolute;
+    right: 0;
+    bottom: 120px;
+}
+
+#main img:nth-child(4) {
+    height: 382px;
+    width: 382px;
+    position: absolute;
+    bottom: 80px;
+    right: 250px;
+    z-index: -2;
+}
+
+#main span {
+    font-size: 36px;
+    color: #3E3F43;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+#main h1 {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+#main button {
+    width: 175px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #DAA520;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 32px;
+}
+
+header strong {
+    color: #3E3F43;
+}
+.line {
+    flex: 1 1 auto;
+    height: 0;
+    border-bottom: 1px solid black;
+    margin: 0 3px 0 14px;
+}
+header h2 {
+    font-size: 72px;
+    color: rgba(34, 34, 34, 0.1);
+}
+#about {
+    padding-bottom: 120px;
+}
+#about .flex_block {
+    margin: 40px 0 170px;
+}
+.flex_block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rounded_block{
+    width: 280px;
+    height: 400px;
+    background-color: #F7DEA6;
+    -webkit-border-radius: 0 100px 0 100px;
+    -moz-border-radius: 0 100px 0 100px;
+    border-radius: 0 100px 0 100px;
+    position: relative;
+}
+.rounded_block img {
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+}
+#about p {
+    font-weight: 700;
+}
+#about img:nth-child(5){
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slick-slider {
+}
+
 /* Слайдер запущен */
-.slick-slider.slick-initialized{}
+.slick-slider.slick-initialized {
+}
+
 /* Слайдер с точками */
-.slick-slider.slick-dotted{}
+.slick-slider.slick-dotted {
+}
+
 /* Ограничивающая оболочка */
-.slick-list {}
+.slick-list {
+}
+
 /* Лента слайдов */
-.slick-track{}
+.slick-track {
+}
+
 /* Слайд */
-.slick-slide{}
+.slick-slide {
+}
+
 /* Слайд активный (показывается) */
-.slick-slide.slick-active{}
+.slick-slide.slick-active {
+}
+
 /* Слайд основной */
-.slick-slide.slick-current{}
+.slick-slide.slick-current {
+}
+
 /* Слайд по центру */
-.slick-slide.slick-center{}
+.slick-slide.slick-center {
+}
+
 /* Клонированный слайд */
-.slick-slide.slick-cloned{}
+.slick-slide.slick-cloned {
+}
+
 /* Стрелка */
-.slick-arrow{}
+.slick-arrow {
+}
+
 /* Стрелка влево */
-.slick-arrow.slick-prev{}
+.slick-arrow.slick-prev {
+}
+
 /* Стрелка вправо */
-.slick-arrow.slick-next{}
+.slick-arrow.slick-next {
+}
+
 /* Стрелка не активная */
-.slick-arrow.slick-disabled{}
+.slick-arrow.slick-disabled {
+}
+
 /* Точки (булиты) */
-.slick-dots{}
-.slick-dots li{}
+.slick-dots {
+}
+
+.slick-dots li {
+}
+
 /* Активная точка */
-.slick-dots li.slick-active{}
+.slick-dots li.slick-active {
+}
+
 /* Элемент точки */
-.slick-dots li button{}
+.slick-dots li button {
+}
