@@ -285,12 +285,100 @@ header h2 {
 .card_grid .bg_right {
     background-color: #A8DCEC;
 }
-
-
-
-
-
-
+#testimony {
+    padding-bottom: 120px;
+}
+.reviews {
+    min-width: 100%;
+}
+.reviews_block {
+    padding: 54px 16px;
+    width: 385px;
+    border: solid 1px black;
+    -webkit-border-radius: 0 80px 0 80px;
+    -moz-border-radius: 0 80px 0 80px;
+    border-radius: 0 80px 0 80px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.author {
+    display: flex;
+    align-items: center;
+}
+.author img {
+    margin-right: 10px;
+    display: block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+}
+.author p {
+    font-size: 12px;
+    color: #AFAFAF;
+}
+footer {
+    padding: 0 100px 24px;
+    background: url("../img/footer_bg1.jpg") no-repeat ;
+}
+.subscribe {
+    height: 175px;
+}
+.subscribe strong {
+    font-size: 18px;
+}
+.subscribe span {
+    font-size: 16px;
+}
+.subscribe form {
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #DAA520;
+    padding-left: 16px;
+    font-size: 16px;
+    display: flex;
+    background-color: #fff;
+}
+.subscribe form input {
+    border: none;
+}
+.subscribe form input:focus {
+    outline: none;
+}
+.subscribe form input[type="text"] {
+    width: 330px;
+}
+.subscribe form input[type="submit"] {
+    height: 39px;
+    width: 120px;
+    background-color: #DAA520;
+}
+.references {
+    border-top: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    justify-content: space-between;
+    align-items: center;
+    grid-row-gap: 16px;
+    padding: 24px 0 45px;
+    width: 700px;
+}
+.references strong {
+    font-size: 18px;
+    font-weight: 700;
+}
+.references p {
+    font-size: 14px;
+    color: #8D8D8D;
+    margin: 0;
+}
+footer > p{
+    text-align: center;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 700;
+    color: #8D8D8D;
+}
 
 
 
@@ -313,10 +401,12 @@ header h2 {
 
 /* Ограничивающая оболочка */
 .slick-list {
+    overflow: hidden;
 }
 
 /* Лента слайдов */
 .slick-track {
+    display: flex;
 }
 
 /* Слайд */
