@@ -19,10 +19,33 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="438c652c-b3f7-400f-b83b-47a2aec02caa" name="Default Changelist" comment="CSS - totul, inclusiv footer , a ramas doar sliderul ~ 50min">
+    <list default="true" id="438c652c-b3f7-400f-b83b-47a2aec02caa" name="Default Changelist" comment="CSS - totul, inclusiv footer , a ramas doar sliderul ~ 30sec">
+      <change afterPath="$PROJECT_DIR$/../untitled/js.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/categories_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/categories_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/categories_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/categories_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/categories_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/categories_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/categories_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/categories_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/categories_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/categories_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/flower.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/flower.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/footer_bg1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/footer_bg1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/icon_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/icon_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/icon_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/icon_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/material_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/material_img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/material_img_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/material_img_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/material_img_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/material_img_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/reviewers_img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/reviewers_img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/star.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/star.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/testimony_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/testimony_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/testimony_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/testimony_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/slick.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/slick.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +74,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -63,11 +86,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PPW\Evaluare_2\public" />
       <recent name="D:\PPW\Evaluare_2\assets\js" />
       <recent name="D:\PPW\Evaluare_2\assets\css" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\PPW\Evaluare_2\assets\js" />
       <recent name="D:\PPW\Evaluare_2\assets\css" />
     </key>
@@ -82,7 +106,13 @@
       <updated>1606204721497</updated>
       <workItem from="1606204722891" duration="5344000" />
       <workItem from="1606210954225" duration="23592000" />
-      <workItem from="1606254742897" duration="983000" />
+      <workItem from="1606254742897" duration="1987000" />
+      <workItem from="1606284966858" duration="1602000" />
+      <workItem from="1606304603885" duration="874000" />
+      <workItem from="1606307443477" duration="2401000" />
+      <workItem from="1606318654702" duration="13000" />
+      <workItem from="1607581224697" duration="4346000" />
+      <workItem from="1607594010738" duration="1754000" />
     </task>
     <task id="LOCAL-00001" summary="Commitul de la lectie">
       <created>1606209949794</created>
@@ -126,7 +156,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606255188189</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="CSS - totul, inclusiv footer , a ramas doar sliderul ~ 10min">
+      <created>1606255773886</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606255773886</updated>
+    </task>
+    <task id="LOCAL-00008" summary="CSS - totul, inclusiv footer , a ramas doar sliderul ~ 30sec">
+      <created>1606255849868</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606255849868</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,16 +194,22 @@
     <MESSAGE value="CSS - pana la about 1h:20min" />
     <MESSAGE value="CSS - pana la categories 50min" />
     <MESSAGE value="CSS - totul, inclusiv footer , a ramas doar sliderul ~ 50min" />
-    <option name="LAST_COMMIT_MESSAGE" value="CSS - totul, inclusiv footer , a ramas doar sliderul ~ 50min" />
+    <MESSAGE value="CSS - totul, inclusiv footer , a ramas doar sliderul ~ 10min" />
+    <MESSAGE value="CSS - totul, inclusiv footer , a ramas doar sliderul ~ 30sec" />
+    <option name="LAST_COMMIT_MESSAGE" value="CSS - totul, inclusiv footer , a ramas doar sliderul ~ 30sec" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="90" key="DiffContextDialog" timestamp="1606255206353">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="184" y="90" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1606255206353" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1606255211007">
+    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1606318662167">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1606255211007" />
+    <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1606318662167" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1606255851854">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1606255851854" />
   </component>
 </project>
